@@ -42,7 +42,7 @@ Next, you'll need to import the Email Editor component to your app.
         <button v-on:click="exportHtml">Export HTML</button>
       </div>
 
-      <EmailEditor ref="emailEditor" v-on:load="editorLoaded" />
+      <EmailEditor ref="editor" v-on:load="editorLoaded" />
     </div>
   </div>
 </template>
@@ -57,17 +57,17 @@ Next, you'll need to import the Email Editor component to your app.
     },
     methods: {
       editorLoaded() {
-        this.$refs.emailEditor.editor.loadDesign({});
+        this.$refs.editor.loadDesign({});
       },
       saveDesign() {
-        this.$refs.emailEditor.editor.saveDesign(
+        this.$refs.editor.saveDesign(
           (design) => {
             console.log('saveDesign', design);
           }
         )
       },
       exportHtml() {
-        this.$refs.emailEditor.editor.exportHtml(
+        this.$refs.editor.exportHtml(
           (data) => {
             console.log('exportHtml', data);
           }

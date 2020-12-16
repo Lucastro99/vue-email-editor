@@ -1,17 +1,39 @@
 {
-  "name": "vue-email-editor",
-  "version": "0.7.2",
-  "main": "./dist/vue-email-editor.common.js",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name vue-email-editor ./src/components/index.js",
-    "lint": "vue-cli-service lint",
-    "release": "npm run build-bundle && npm publish"
+  "_from": "vue-email-editor",
+  "_id": "vue-email-editor@0.7.2",
+  "_inBundle": false,
+  "_integrity": "sha512-SR/iaJFwlCSFMGCLz0tbhTIlVT4TxfwEGc7KxDXQtiky/GJUQhnrloYIVUe2NH90Ji2hSe+QB0xtfr4oIFeJFA==",
+  "_location": "/vue-email-editor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-email-editor",
+    "name": "vue-email-editor",
+    "escapedName": "vue-email-editor",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-email-editor/-/vue-email-editor-0.7.2.tgz",
+  "_shasum": "649c2efa0067efaa69dcc1f3a71420d40127fccb",
+  "_spec": "vue-email-editor",
+  "_where": "C:\\Users\\Lucas\\OneDrive\\Área de Trabalho\\gvue",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bundleDependencies": false,
   "dependencies": {
     "vue": "^2.5.17"
   },
+  "deprecated": false,
+  "description": "The excellent drag-n-drop email editor by [Unlayer](https://unlayer.com) as a [Vue](https://vuejs.org/) *wrapper component*. This is the most powerful and developer friendly visual email builder for your app.",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
@@ -19,13 +41,6 @@
     "vue-router": "^3.3.2",
     "vue-template-compiler": "^2.5.17"
   },
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
-  ],
   "eslintConfig": {
     "root": true,
     "env": {
@@ -40,14 +55,26 @@
       "parser": "babel-eslint"
     }
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "main": "./dist/vue-email-editor.common.js",
+  "name": "vue-email-editor",
   "postcss": {
     "plugins": {
       "autoprefixer": {}
     }
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "scripts": {
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name vue-email-editor ./src/components/index.js",
+    "lint": "vue-cli-service lint",
+    "release": "npm run build-bundle && npm publish",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "0.7.2"
 }
