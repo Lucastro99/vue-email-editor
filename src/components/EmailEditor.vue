@@ -63,6 +63,13 @@ export default {
       });
 
       this.$emit('load');
+      let that = this;
+      this.editor.addEventListener('design:updated', function(data) {
+          that.$emit('designUpdated', data);
+      })
+    },
+    addEventListener(event, callback) {
+        this.editor.addEventListener(event, callback);
     },
     loadDesign(design) {
       this.editor.loadDesign(design);
