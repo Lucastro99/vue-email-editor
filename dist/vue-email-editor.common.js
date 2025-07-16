@@ -1734,7 +1734,7 @@ module.exports =
 
 
 
-            var scriptUrl = '//editor.unlayer.com/embed.js?2';
+            var scriptUrl = 'http://192.168.1.156:8989/proxy-unlayer?url=https://editor.unlayer.com/embed.js?2';
             var callbacks = [];
             var loaded = false;
 

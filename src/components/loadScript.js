@@ -1,4 +1,4 @@
-const scriptUrl = '//editor.unlayer.com/embed.js?2';
+const scriptUrl = 'http://192.168.1.156:8989/proxy-unlayer?url=https://editor.unlayer.com/embed.js?2';
 const callbacks = [];
 let loaded = false;
 
