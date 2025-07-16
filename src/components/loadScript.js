@@ -1,4 +1,4 @@
-const scriptUrl = '//editor.unlayer.com/embed.js?2';
+const scriptUrl = 'https://raw.githubusercontent.com/lucastro99/vue-email-editor/master-v4/public/js/embed.js';
 const callbacks = [];
 let loaded = false;
 
