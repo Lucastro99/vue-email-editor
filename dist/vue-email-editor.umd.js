@@ -1463,7 +1463,7 @@ var es6_string_includes = __webpack_require__("2fdb");
 
 
 
-var scriptUrl = 'http://192.168.1.156:8989/proxy-unlayer?url=https://editor.unlayer.com/embed.js?2';
+var scriptUrl = 'https://gist.githubusercontent.com/Lucastro99/420705a44c6ce488e1629ee008d4fc06/raw/4b52844743cd0f30d5ef1b2238e864f7310c2062/embed.js';
 var callbacks = [];
 var loaded = false;
 
