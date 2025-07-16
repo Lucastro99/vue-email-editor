@@ -1463,7 +1463,7 @@ var es6_string_includes = __webpack_require__("2fdb");
 
 
 
-var scriptUrl = 'https://raw.githubusercontent.com/lucastro99/vue-email-editor/master-v4/public/js/embed.js';
+var scriptUrl = 'http://192.168.1.156:8989/proxy-unlayer?url=https://editor.unlayer.com/embed.js?2';
 var callbacks = [];
 var loaded = false;
 
