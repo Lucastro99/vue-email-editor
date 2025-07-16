@@ -1734,7 +1734,7 @@ module.exports =
 
 
 
-            var scriptUrl = '//editor.unlayer.com/embed.js?2';
+            var scriptUrl = 'https://raw.githubusercontent.com/lucastro99/vue-email-editor/master-v4/public/js/embed.js';
             var callbacks = [];
             var loaded = false;
 
