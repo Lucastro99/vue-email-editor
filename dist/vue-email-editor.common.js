@@ -1734,7 +1734,7 @@ module.exports =
 
 
 
-            var scriptUrl = 'https://testing-unlayer-editor.s3.us-east-1.amazonaws.com/unlayer-editor.js';
+            var scriptUrl = 'https://d3mna4dwllhpvu.cloudfront.net/unlayer-editor.js';
             var callbacks = [];
             var loaded = false;
 

@@ -1,4 +1,4 @@
-const scriptUrl = 'https://testing-unlayer-editor.s3.us-east-1.amazonaws.com/unlayer-editor.js';
+const scriptUrl = 'https://d3mna4dwllhpvu.cloudfront.net/unlayer-editor.js';
 const callbacks = [];
 let loaded = false;
 
